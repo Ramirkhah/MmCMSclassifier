@@ -8,7 +8,7 @@ A classifier to align mouse CRC models with Consensus Molecular Subtypes (CMS) o
 <p>Run the following code in R/RStudio to install the package:</p>
 
 <code>#install.packages("devtools")</code><br>
-<code>#devtools::install_github("Ramirkhah/MmCMS")</code>
+<code>#devtools::install_github("Ramirkhah/MmCMSclassifier")</code>
 <h3>Citation</h3>
 <p>The MmCMS classifier R package is developed by the <a href="https://dunne-lab.com/">DunneLab</a>. Please contact <a href="https://www.linkedin.com/in/raheleh-amirkhah-ba5ab05b/?originalSubdomain=uk">Raheleh Amirkhah</a> for any package related issues, questions, or suggestions.</p>
 
