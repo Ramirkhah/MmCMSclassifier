@@ -35,7 +35,8 @@
 #' @examples
 #' emat <- TestData_gemm
 #' re <- MmCMS(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.CMS.A"), seed=120)
-
+#' @import GSVA
+#' @import BiocParallel
 MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.CMS.B", "template.CMS.C", "template.CMS.A"),
                   nPerm=1000, seed=NULL,
                   FDR=0.05, doPlot=TRUE, verbose=TRUE) {

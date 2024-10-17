@@ -2,3 +2,5 @@
 
 export(MmCMS)
 export(ematAdjust)
+import(BiocParallel)
+import(GSVA)
